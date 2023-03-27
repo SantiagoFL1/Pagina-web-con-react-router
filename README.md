@@ -1,3 +1,6 @@
+Antes de ejecutar la aplicación con npm run start, iniciar el servidor de json server con los datos, con el siguiente código:
+npx json-server --watch Datos/datos.json --port 4000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
