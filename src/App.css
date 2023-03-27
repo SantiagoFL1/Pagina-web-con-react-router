@@ -1,0 +1,189 @@
+:root {
+  --primero: #852727;
+  --segundo: black;
+  --tercero: gray;
+  --cuarto: #2b455e46;
+}
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: "Poppins";
+  background: var(--tercero);}
+  * {
+    color: #fff;
+    margin: 0;
+  }
+
+/* Elementos en general */
+
+  p {
+    margin: 20px 0;
+  }
+  button {
+    border: 0;
+    padding: 8px;
+    border-radius: 4px;
+    color: white;
+    background: var(--primero);
+    cursor: pointer;
+  }
+  
+  /* Encabezado */
+
+  .Encabezado {
+    background-color:var(--segundo);
+    height:10em;
+    padding: 1em;
+  }
+
+  .Encabezado, p {
+    margin-left:.3em;
+  }
+
+
+
+  .links{
+    width:100%;
+  }
+  
+  .links h1 *{
+    text-decoration: none;
+  }
+
+  .Idioma{
+    display: flex;
+
+  }
+
+  .Idioma 
+
+  p{
+    margin-right:2em;
+    cursor: pointer;
+  }
+
+  .bandera {
+    width: 1.4em;
+    height: 1em;
+  }
+  
+
+  header nav {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  header nav a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 4px;
+  }
+  header nav a.active {
+    background: var(--primero);
+  }
+
+/* Componentes de páginas y subpáginas */
+  .pagina {
+    margin-top:5em;
+  }
+
+  .subpagina {
+    margin-top:0;
+    padding: 1em;
+  }
+
+/* Página principal */
+
+  .PagPrincipal *{
+    margin-top:1em;
+  }
+
+  /*.Listado */
+
+  .ContenedorLista{
+    justify-content: center;
+    
+  }
+
+  .ListaProductos {
+    justify-content:center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4em;
+    margin-right: 4em;
+    min-width:40em;
+  }
+  .FichaProducto {
+    background-color:#00000046;
+    border-radius: 1em;
+    width: 11em;
+    height:11em;
+    padding:1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+    text-decoration: none; 
+    
+  }
+  .FichaProducto h2 {
+    padding: 1em;
+    font-size: 1.2em;
+  }
+  .ListaProductos > a {
+    text-decoration: none;
+  }
+
+  .DetalleProducto{
+    background-color: #00000046;
+    padding: 1em;
+  }
+  
+  /* Contenido de páginas */
+  main {
+    max-width: 1200px;
+    margin: 40px auto;
+  }
+  
+  /* Encabezado de información */
+
+  .EncabezadoInfo {
+    
+    padding: 1em;
+    
+  }
+
+  .EncabezadoInfo nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    
+  }
+  .EncabezadoInfo nav a{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 8px;
+    text-decoration: none;
+    
+  }
+  
+  .EncabezadoInfo nav a.active {
+    background:var(--primero);
+  }
+  
+ /* Páginas de error */
+
+  .error *{
+    margin-bottom:1em;
+  }
+
+  .ErrorPdtos h2{
+    padding: 1em;
+    text-decoration: none;
+
+  }
+ 
+  

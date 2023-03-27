@@ -1,0 +1,67 @@
+{
+  "ListaJSON": [
+    {
+      "nombre": "Zapatilla deportiva",
+      "descripcion": "asd",
+      "vendedor": "Juan",
+      "precio": 110,
+      "id": 1
+    },
+    {
+      "nombre": "Sandalia",
+      "descripcion": "asd",
+      "vendedor": "Pedro",
+      "precio": 140,
+      "id": 2
+    },
+    {
+      "nombre": "Zapato",
+      "descripcion": "asd",
+      "vendedor": "María",
+      "precio": 100,
+      "id": 3
+    },
+    {
+      "nombre": "Zapatilla",
+      "descripcion": "asd",
+      "vendedor": "María",
+      "precio": 110,
+      "id": 4
+    },
+    {
+      "nombre": "Mocasín",
+      "descripcion": "asd",
+      "vendedor": "María",
+      "precio": 100,
+      "id": 5
+    },
+    {
+      "nombre": "Sandalia",
+      "descripcion": "asd",
+      "vendedor": "María",
+      "precio": 90,
+      "id": 6
+    },
+    {
+      "nombre": "Zapatos de taco",
+      "descripcion": "asd",
+      "vendedor": "María",
+      "precio": 100,
+      "id": 7
+    },
+    {
+      "nombre": "Zapato",
+      "descripcion": "asd",
+      "vendedor": "María",
+      "precio": 110,
+      "id": 8
+    },
+    {
+      "nombre": "Zapatilla",
+      "descripcion": "asd",
+      "vendedor": "María",
+      "precio": 120,
+      "id": 9
+    }
+  ]
+}
